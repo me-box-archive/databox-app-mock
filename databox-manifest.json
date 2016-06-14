@@ -1,0 +1,32 @@
+{
+	"manifest-version": 1,
+
+	"name": "databox-app-mock",
+	"version": "0.1.0",
+
+	"description": "A fake app container to test authentication with",
+	"author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+	"license": "MIT",
+
+	"tags": [
+		"app",
+		"mock",
+		"native",
+		"debug",
+		"test"
+	],
+
+	"homepage": "https://github.com/me-box/databox-app-mock",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/me-box/databox-app-mock.git"
+	},
+
+	"network-permissions": [
+	],
+	"hardware-permissions": [
+	],
+
+	"resource-requirements": {
+	}
+}

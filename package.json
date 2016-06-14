@@ -1,0 +1,37 @@
+{
+  "name": "databox-app-mock",
+  "version": "0.1.0",
+  "description": "A fake app container to test authentication with",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lsc main.ls",
+    "release": "docker build -t databox-app-mock . && docker tag databox-app-mock amar.io:5000/databox-app-mock && docker push amar.io:5000/databox-app-mock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-box/databox-app-mock.git"
+  },
+  "keywords": [
+    "docker",
+    "databox",
+    "personal",
+    "data",
+    "app",
+    "mock"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/me-box/databox-app-mock/issues"
+  },
+  "homepage": "https://github.com/me-box/databox-app-mock#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "faker": "^3.1.0",
+    "livescript": "^1.4.0",
+    "macaroons.js": "^0.3.6",
+    "path-to-regexp": "^1.5.1",
+    "request": "^2.72.0"
+  }
+}
